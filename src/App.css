@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,41 @@
   to {
     transform: rotate(360deg);
   }
+} */
+a.active {
+  color: red;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-color: blueviolet;
+  height: 100vh;
+}
+.Home {
+  background-color: brown;
+}
+.Home ul li{
+  background-color: blanchedalmond;
+  margin-bottom: 5px;
+}
+.About {
+  background-color: tomato;
+}
+.About p {
+  background-color: yellow;
+  margin-bottom: 10px;
+}
+.Books{
+  background-color: greenyellow;
+}
+.AddNewBook {
+  height: 50vh;
+  background-color: rgb(230, 11, 131);
+}
+.RelatedBooks {
+  height: 50vh;
+  background-color: rgb(253, 144, 2);
 }
